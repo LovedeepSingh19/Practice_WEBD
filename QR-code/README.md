@@ -12,7 +12,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](https://file%2B.vscode-resource.vscode-cdn.net/Users/lovedeepsingh/Desktop/Screen%20Shot.png?version%3D1660942226915)
+![](images/Screen Shot.png?raw=true)
 
 ## My process
 
