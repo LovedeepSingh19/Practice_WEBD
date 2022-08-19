@@ -4,15 +4,42 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 100vh;
     font-family: sans-serif;
     background-color: rgb(213, 221, 236);
 }
 
+@media screen and (min-width:375px) {
+    .main-container{
+        width: 30vh;
+    }
+
+    .bold{
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+    .neat{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .main-container{
+        width: 32vh;
+    }
+
+    .bold{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .neat{
+        font-size: 13px;
+    }
+}
 .main-container{
     background-color: white;
-    width: 35vh;
     border-radius: 20px;
     text-align: center;
     text-overflow: inherit;
@@ -21,9 +48,6 @@ body{
 }
 
 .bold{
-    font-weight: 600;
-    font-size:large;
-    word-spacing: 2px;
     margin: 10px 20px;
     opacity: 75%;
 }
@@ -31,7 +55,6 @@ body{
 .neat{
     color: gray;
     margin: 20px 24px;
-    font-size: small;
     opacity: 75%;
     margin-bottom: 30px;
 }
