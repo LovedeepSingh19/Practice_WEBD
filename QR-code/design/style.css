@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+    font-family: sans-serif;
+    background-color: rgb(213, 221, 236);
+}
+
+.main-container{
+    background-color: white;
+    width: 35vh;
+    border-radius: 20px;
+    text-align: center;
+    text-overflow: inherit;
+    margin: 5px;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.3);
+}
+
+.bold{
+    font-weight: 600;
+    font-size:large;
+    word-spacing: 2px;
+    margin: 10px 20px;
+    opacity: 75%;
+}
+
+.neat{
+    color: gray;
+    margin: 20px 24px;
+    font-size: small;
+    opacity: 75%;
+    margin-bottom: 30px;
+}
+
+img{
+    align-items: center;
+    margin: 5%;
+    width: 90%;
+    border-radius: 12px;
+}
+.footer{
+    bottom: 0;
+    position: absolute;
+    margin: 10px;
+}
