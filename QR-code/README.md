@@ -8,15 +8,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [What I learned](#what-i-learned)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ### Screenshot
 
 ![](https://github.com/LovedeepSingh19/Practice_WEBD/blob/main/QR-code/images/SS.png)
 
 ## My process
 
-I just tested manually everything in HTML and CSS untill it fits the exact discription of the designs provided.
+I just tested manually everything in HTML and CSS until it fits the exact discription of the designs provided.
 
 ### What I learned
 
