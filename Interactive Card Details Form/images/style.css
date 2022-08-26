@@ -1,0 +1,340 @@
+body{
+    margin: 0;
+    background-image: url("/images/bg-main-desktop.png");
+    background-size: cover;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Space Grotesk', sans-serif;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.card-front{
+    background-image: url("/images/bg-card-front.png");
+    width: 400px;
+    background-size: cover;
+    height: 200px;
+    top: 10%;
+    z-index: 0.1;
+    left: 10%;
+    position: absolute;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    justify-content: center;
+    color: aliceblue;
+    padding: 20px;
+    margin: 5px 5px 5px;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.cardn{
+    text-align: center;
+    position: relative;
+    top: 30%;
+    letter-spacing: 3px;
+    right: 6px;
+    font-size: 28px;
+}
+
+.info{
+    top: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-content:space-between;
+    position: relative;
+    padding: 0px 25px;
+    font-size: 18px;
+    color:rgb(189, 200, 208);
+}
+
+.dot{
+    background-color: aliceblue;
+    position: relative;
+    top: 10px;
+    left: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2{
+    position: relative;
+    height: 15px;
+    width: 15px;
+    left: 14px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: inline-block;
+}
+
+.card-back{
+    background-image: url("/images/bg-card-back.png");
+    background-size: cover;
+    height: 245px;
+    width: 447px;
+    top: 42%;
+    left: 15%;
+    position: absolute;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    transition: 0.8s;
+}
+
+.cvc{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98%;
+    color: white;
+    right: 12%;
+}
+
+.form h4{
+    left: 46%;
+}
+
+h4{
+    position: relative;
+    left: 25%;
+    top: 100px;
+    font-size: 13px;
+    padding: 0;
+}
+
+input{
+    top: 100px;
+    position: relative;
+    height: 40px;
+    left: 46%;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-weight: 50;
+    padding: 0px 10px;
+}
+
+.form{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-color: white;
+    color: black;
+    left: 22%;
+    transition: 0.5s;
+    padding: 10% 0 20%;
+}
+
+.heading h4{
+    position: relative;
+}
+
+.main-cvc{
+    margin-left: 5px;
+}
+
+.main-cvc input{
+    width: 42%;
+    margin-right: 15px;
+}
+
+.date input{
+    width: 50px;
+}
+
+.heading{
+    position: relative;
+    display: flex;
+    left: 42%;
+}
+
+
+.btn{
+    position: relative;
+    margin: 20px 10px;
+    bottom: -15%;
+    left: 45%;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    border: none;
+    color: aliceblue;
+    background-color: rgb(23, 7, 65);
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover{
+    opacity: 0.85;
+}
+
+.btn.con{
+    left: 0px;
+    top: 0px;
+    width: 300px;
+    height: 45px;
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.attribution{
+    position: fixed;
+    bottom: 10px;
+    color: rgb(150, 150, 150);
+    left: 50%;
+}
+
+.active{
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+    height: 100vh;
+    left: 22%;
+    z-index: -1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.circle{
+    position: relative;
+    z-index: 0.1;
+    width: 70px;
+    font-size: 25px;
+    left: 30px;
+    height: 70px;
+    border-radius: 50%;
+    background-image: linear-gradient(rgb(93, 50, 203), rgb(116, 2, 116));
+    color: white;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active span{
+    font-weight: 800;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.words{
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-size: 13px;
+    opacity: 0.9;
+    color: gray;
+    font-weight: 500;
+}
+
+@media (width<750px) or (height<600px) {
+    .card-front{
+        height: 150px;
+        width: 300px;
+        transition: 0.5s;
+        top: 15%;
+    }
+
+    .dot{
+        height: 30px;
+        width: 30px;
+    }
+
+    .dot2{
+        height: 10px;
+        width: 10px;
+    }
+    .cardn{
+        font-size: 20px;
+        margin: 0;
+    }
+    .info{
+        font-size: 18px;
+    }
+
+    .card-back{
+        height: 150px;
+        width: 300px;
+        transition: 0.8s;
+        top: 4%;
+        left: 28%;
+    }
+
+    .cvc{
+        font-size: 15px;
+        top: 8px;
+    }
+
+    .form{
+        left: 0;
+        top: 25%;
+        padding-top: 5%;
+        transition: 0.5s;
+    }
+
+    .form h4{
+        left: 30%;
+    }
+
+    .form input{
+        left: 28%;
+    }
+
+    .heading{
+        left: 22%;
+    }
+
+    .heading h4{
+        left: 30%;
+    }
+
+    .btn{
+        margin-top: 15px;
+        transition: 0.5s;
+        left: 26%
+    }
+    .attribution{
+        position: fixed;
+        bottom: 10px;
+        color: rgb(150, 150, 150);
+        left: 25%;
+    }
+
+    .active{
+        background-color: aliceblue;
+        color: black;
+        top: 25%;
+        height: 80%;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        transition: 0.4s;
+        margin-top: 30px;
+    }
+
+}
+
+.non-visible{
+    visibility: hidden;
+    transition: 0.25s;
+}
